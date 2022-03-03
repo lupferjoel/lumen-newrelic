@@ -1,22 +1,22 @@
 {
-    "name": "nordsoftware/lumen-newrelic",
+    "name": "lupferjoel/lumen-newrelic",
     "description": "New Relic instrumentation for the Lumen framework",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Sam Stenvall",
-            "email": "sam.stenvall@nordsoftware.com"
+            "name": "Joel Lupfer",
+            "email": "54706581+lupferjoel@users.noreply.github.com"
         }
     ],
     "require": {
         "php": "^7.2 | ^8.0",
         "intouch/newrelic": "^1.0 | ^2.0",
-        "illuminate/support": "^5.5 | ^6.0 | ^7.0 | ^8.0",
-        "nordsoftware/lumen-chained-exception-handler": "^3.0"
+        "illuminate/support": "^5.5 | ^6.0 | ^7.0 | ^8.0 | ^9.0",
+        "lupferjoel/lumen-chained-exception-handler": "^4.0"
     },
     "require-dev": {
-        "laravel/lumen-framework": "^5.5|^6.0|^7.0|^8.0",
+        "laravel/lumen-framework": "^5.5 | ^6.0 | ^7.0 | ^8.0 | ^9.0",
         "phpunit/phpunit": "^9"
     },
     "autoload": {
